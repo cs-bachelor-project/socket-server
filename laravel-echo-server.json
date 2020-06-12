@@ -1,10 +1,11 @@
 {
-	"authHost": "http://localhost:8000",
+	"authHost": "http://api:8000",
 	"authEndpoint": "/broadcasting/auth",
 	"clients": [],
 	"database": "redis",
 	"databaseConfig": {
 		"redis": {
+			"host": "redis",
 			"keyPrefix": "laravel_database_"
 		},
 		"sqlite": {
